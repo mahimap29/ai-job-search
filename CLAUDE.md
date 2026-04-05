@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Mahima Prajapati
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Mahima Prajapati, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,83 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Mahima Prajapati
+- **Location:** Blacksburg, Virginia, USA (open to US-wide relocation for internships; secondarily open to France and Germany)
+- **Email:** mahimap@vt.edu
+- **LinkedIn:** linkedin.com/in/mahimaprajapati
+- **Languages:** English (Professional Working), Hindi (Professional Working), Gujarati (Full Professional), Marathi (Limited Working), Spanish (Elementary)
+- **Status:** PhD student, Virginia Tech — F-1 visa holder (CPT/OPT eligible); seeking Summer 2026 and Fall 2026 internships
+- **LinkedIn headline:** "Aerospace Engineering Grad @ Virginia Tech | Metal Additive Manufacturing | Structures and Vibrations | Aeroelasticity"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **PhD in Aerospace & Ocean Engineering** (Jan 2025 - present) - Virginia Tech, Kevin T. Crofton Dept. of Aerospace and Ocean Engineering
+  - Focus: Metal additive manufacturing (AM); Abaqus-based simulations to predict deformations and distortions during the AM process
+- **MS in Aerospace Engineering** (Aug 2021 - Dec 2024) - Virginia Tech
+  - Thesis: "Flutter speed and frequency of aircraft wings with distributed electric propulsors, exploring ways to mitigate aeroelastic instabilities"
+  - Topics: Aeroelasticity, fluid-structure interaction, distributed electric propulsion, structural dynamics
+- **BE in Mechanical Engineering** (2016 - 2020) - M.H. Saboo Siddik College of Engineering, Mumbai, India
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Graduate Research & Teaching Assistant** (Dec 2021 - Present) - **Virginia Tech** (Blacksburg, VA)
+  - Conducting PhD research in metal additive manufacturing using Abaqus FEA simulations
+  - Delivered lectures, tutorials, and lab sessions; provided technical guidance to 50+ students
+  - Vibrational studies research on Broad Art Museum Monumental Staircase System (with Dr. Mehdi Setareh, 2021)
+- **Student Assistant** (May 2024 - Aug 2024) - **VT Continuing and Professional Education** (Blacksburg, VA)
+  - Administrative and logistical support for project managers; financial process management
+- **Mechanical Engineering Intern** (Jun 2019 - Jul 2019) - **Automation & Control Systems / PLC Automation Training** (Pune, India)
+  - Error diagnosis of critical circuits using CoDeSys and RSlogix 8.10.00
+  - Improved efficiency and accuracy by 20% of a 6-axis ABB Robot; reduced downtime by 15% using RobotStudio 6.00
+  - Redesigned complex electrical projects using AutoCAD Electrical, saving 70% of working cost
+- **Engineering Intern** (Dec 2018 - Jan 2019) - **Air India Limited** (Mumbai, India)
+  - Routine maintenance of aircraft engines (PW4056, CFM56, GE90/GE Nx) and APU at Mumbai International Airport
+  - Improved engine efficiency by 20% of PW4056 engine in maintenance project
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Abaqus (expert — FEA/simulation, thermo-mechanical coupling, UMAT/VUMAT), MATLAB, SolidWorks, ANSYS, CATIA
+- **Secondary:** LaTeX, AutoCAD Electrical, CoDeSys, RSlogix, RobotStudio, MATLAB Simulink
+- **Domain:** Metal Additive Manufacturing, Aeroelasticity, Fluid-Structure Interaction, Structures & Vibrations, Thermo-Mechanical Analysis, Design Optimization, CAD/CAM
+- **Software:** Abaqus, MATLAB, SolidWorks, ANSYS, CATIA, AutoCAD Electrical, RobotStudio, CoDeSys, RSlogix, LaTeX
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **MATLAB Onramp** - MathWorks
+- **MATLAB Fundamentals** - MathWorks
+- **MATLAB Simulink Onramp** - MathWorks
+- **CIRTL at Virginia Tech Associate Badge** - CIRTL Network (teaching in higher education)
+- **Getting Started with Technology: Think Like an Engineer** - online certification
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Prajapati, M. et al. (2026). "Flutter speed and frequency of aircraft wings with distributed electric propulsors." AIAA SciTech Forum 2026. (Presented January 2026)
+- Prajapati, M. et al. (2027). [Extension of SciTech 2026 work — title TBD]. AIAA SciTech Forum 2027. (In preparation)
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- **Tolson & Nerney Fellowship** - Virginia Tech
+- **Business Card Making Competition** - [event/year TBD]
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Independent researcher** - thrives in deep, focused, self-directed research environments
+- **Fast-paced project worker** - energized by high-tempo project work with clear deliverables
+- **Collaborative team player** - uses teamwork to accelerate projects and build team cohesion
+- **Creative problem solver** - wired to think differently and approach engineering challenges from novel angles
+- **Strengths:** FEA simulation depth, bridging computational and real-world manufacturing, teaching/mentoring, persistence
+- **Growth areas:** Learning to delegate in team settings; growing communication of highly technical work to non-specialist audiences
+- **Thrives in:** Research labs, engineering teams with autonomy, environments that value both depth and execution speed
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Bridging the gap between computational modeling (FEA) and real-world manufacturing challenges
+- Advancing aerospace structures, aeroelastic design, and metal additive manufacturing technology
+- Mentoring and developing the next generation of engineers
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Aerospace & Defense:** Boeing, Lockheed Martin, Northrop Grumman, GE Aerospace, Pratt & Whitney, Raytheon, Collins Aerospace, Spirit AeroSystems, Safran, Airbus
+- **Metal Additive Manufacturing:** Sciaky, Trumpf, Relativity Space, Divergent Technologies, Desktop Metal, 3D Systems, Velo3D
+- **National Labs (civilian only):** Oak Ridge National Laboratory (ORNL), NASA (civilian programs), Pacific Northwest National Lab, Argonne
+- **France/Germany (secondary):** Safran, Airbus (Toulouse/Hamburg), Dassault Systèmes, MTU Aero Engines, Liebherr Aerospace
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Job postings requiring US citizenship, green card, or security clearance ("US national only", "US citizen required", "active clearance required")
+- Employers who do not hire F-1 visa holders on CPT/OPT
+- Roles outside aerospace, manufacturing, mechanical engineering, or structures/simulation domain
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
@@ -85,9 +97,10 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
-4. **Verify both documents** (see Verification Checklist below)
-5. Prepare interview talking points based on the role requirements and your strengths
+3. **Critical check:** Verify the posting does NOT include citizenship/clearance-only language (see Deal-breakers above). If it does, flag immediately.
+4. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
+5. **Verify both documents** (see Verification Checklist below)
+6. Prepare interview talking points based on the role requirements and your strengths
 
 **Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 

@@ -1,6 +1,4 @@
-# Job Evaluation Framework
-
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
+# Job Evaluation Framework — Mahima Prajapati
 
 ## Scoring Dimensions
 
@@ -16,9 +14,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Abaqus FEA (expert), MATLAB, SolidWorks, CATIA, ANSYS, thermo-mechanical simulation, metal additive manufacturing process simulation, aeroelastic analysis, structural dynamics, CAD/CAM
+**Moderate match areas:** AutoCAD Electrical, PLC programming (CoDeSys/RSlogix), RobotStudio, industrial automation concepts
+**Weak match areas:** Python/programming-heavy data science, software development, CFD solvers (e.g., OpenFOAM, Fluent), propulsion, avionics, electrical systems design
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +28,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Metal additive manufacturing (simulation/FEA), aeroelasticity research, aerospace structures, thermo-mechanical analysis, FEA simulation (Abaqus), teaching/technical communication
+**Moderate:** Mechanical design (SolidWorks/CATIA), aerospace maintenance (Air India internship), industrial automation (PLC/ABB Robot internship), project coordination
+**Entry-level:** Manufacturing operations, avionics, propulsion, software engineering roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -44,13 +42,17 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Ideal culture signals:** Research-oriented, autonomous, technically rigorous, values innovation, cross-functional collaboration, fast-paced project delivery, invests in intern/student development
+
+**Red flags to research:** Roles dominated by sustaining engineering/maintenance only, heavy bureaucracy with no research component, cultures that don't value independent thinking. Check Glassdoor, LinkedIn, and network contacts.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- **US-wide internship (Summer/Fall 2026):** PASS — relocation is acceptable
+- **France or Germany internship:** PASS (if user requested EU) — verify visa/authorization requirements; flag "confirm with VT International office and employer re: F-1 work abroad"
+- **Requires US citizenship / green card / active security clearance:** FAIL — immediate disqualifier; do not proceed with application
+- **"US national only", "US person", "security clearance required":** FAIL — flag prominently before any work begins
+- **CPT/OPT friendly, visa sponsorship offered:** PASS
+- **Remote (US-based):** PASS — flag "verify F-1 remote work eligibility with VT International office"
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +65,26 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Build industry experience in metal additive manufacturing or aerospace structures/simulation during PhD
+- Develop FEA/simulation expertise applicable to real manufacturing problems (bridge research to industry)
+- Grow into a research engineer or senior simulation engineer role post-PhD
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter — Tasks that energize:**
+- Running and interpreting FEA/simulation studies on real components
+- Solving complex engineering problems that have never been solved before
+- Designing or improving AM processes using computational tools
+- Teaching, explaining, or documenting technical findings to others
+- Presenting research and receiving expert feedback
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Tasks that drain:**
+- Purely administrative or coordination work with no technical component
+- Highly repetitive testing/operations without intellectual challenge
+- Environments with no autonomy or creative latitude
+
+**Life situation alignment:**
+- **Visa:** F-1 CPT/OPT — sponsorship-friendly employers are strongly preferred; citizenship/clearance-required roles are disqualified
+- **Timing:** Summer 2026 and Fall 2026 internships; PhD in early stage (started Jan 2025)
+- **Professional development:** Every internship should add to simulation, AM, or aerospace structures experience directly relevant to PhD research
 
 ### 6. Salary Benchmark (Optional)
 
@@ -94,8 +103,6 @@ Present findings as:
 | [Category] index | XX.X (+/-X.X% vs baseline) |
 | Overall index | XX.X (+/-X.X% vs baseline) |
 ```
-
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
 
 If the salary tool is not configured, skip this section.
 
@@ -124,12 +131,16 @@ Present the evaluation as:
 ### Gaps to Address
 - [bullet points]
 
+### Visa/Eligibility Check
+- [ ] Posting does NOT contain: "US citizen only", "US national", "green card required", "active clearance required", "US person"
+- [ ] Employer hires F-1 visa holders (CPT/OPT) OR offers sponsorship
+
 ### Recommendation
 [1-2 sentences: apply/skip/apply with caveats]
 
 ### Company Research Checklist
 - [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
+- [ ] Checked review sites (Glassdoor, etc.)
 - [ ] Checked LinkedIn for team size, recent hires, connections
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager
@@ -141,7 +152,7 @@ Present the evaluation as:
 - Behavioral Fit: 15%
 - Career Alignment: 30%
 
-(Location is pass/fail, not weighted)
+(Location is pass/fail, not weighted. Visa eligibility failure = immediate disqualifier regardless of score.)
 
 ## Thresholds
 - **Strong Fit** (75+): Definitely apply, tailor everything
@@ -165,6 +176,7 @@ Before writing the application, consider whether the candidate should call the c
 - "How is time typically divided across the listed responsibilities?"
 - "Which competencies are most critical for success in this position?"
 - "What does success look like in the first 6-12 months?"
+- "Is this role open to candidates on F-1 CPT/OPT?" (if not clear from posting)
 
 ### Rules for the Call
 - Prepare a 30-second "elevator pitch" about your background in case they ask
