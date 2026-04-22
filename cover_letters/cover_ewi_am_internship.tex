@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - EWI, Additive Manufacturing Internship
+% Compile with: pdflatex (Overleaf compatible)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}           % Times New Roman
+\usepackage[top=1in, bottom=1in, left=1.1in, right=1.1in]{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    pdftitle={Mahima D. Prajapati - Cover Letter - EWI},
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% -------------------------------------------------------
+%  HEADER
+% -------------------------------------------------------
+\begin{center}
+    {\LARGE \textbf{Mahima D. Prajapati}}\\[4pt]
+    Blacksburg, Virginia, USA \quad|\quad
+    \href{mailto:mahimap@vt.edu}{mahimap@vt.edu} \quad|\quad
+    \href{https://linkedin.com/in/mahimaprajapati}{linkedin.com/in/mahimaprajapati}
+\end{center}
+
+\vspace{8pt}
+\hrule
+\vspace{16pt}
+
+% -------------------------------------------------------
+%  DATE
+% -------------------------------------------------------
+\today
+
+\vspace{16pt}
+
+% -------------------------------------------------------
+%  SALUTATION
+% -------------------------------------------------------
+Dear EWI Hiring Team,
+
+% -------------------------------------------------------
+%  BODY
+% -------------------------------------------------------
+The distortions that make or break a metal additive manufactured part are not random. They are the predictable consequence of thermal gradients, material deposition sequences, and microstructural evolution that unfold layer by layer during the build. My PhD research exists to make those consequences predictable before a single layer is printed. That is precisely the class of problem EWI's directed energy deposition program is built to solve, and it is why I am writing to apply for the Additive Manufacturing Internship at EWI's Buffalo Manufacturing Works for Summer or Fall 2026.
+
+I am developing a \textbf{process-aware, multiscale thermo-mechanical simulation framework in Abaqus} that couples thermal history predictions with structural response models, heat source modeling, and microstructure evolution at every stage of the DED process. The goal is concrete: predict warping and cracking before a part is built, not after. My framework addresses a critical gap that no high-fidelity simulation or experiment alone can close. Specific contributions that I would bring to EWI's research floor:
+
+\begin{itemize}[leftmargin=1.5em, itemsep=3pt]
+    \item \textbf{Thermo-mechanical FEA of DED processes:} Validated Abaqus models coupling thermal history with structural distortion prediction across full AM build sequences; directly applicable to EWI's laser and arc DED and robotic deposition workflows.
+    \item \textbf{Microstructure-informed simulation:} Currently integrating microstructure evolution models to move beyond assumed uniform material properties and capture the spatially and temporally varying behavior that governs part performance in DED components.
+    \item \textbf{ML surrogate for real-time process control:} Developing a physics-informed machine learning model trained on simulation outputs and process parameters, targeting a digital twin capability for predictive process monitoring in metal AM.
+    \item \textbf{Peer-reviewed publication and competitive recognition:} MS research published at AIAA SciTech Forum 2026 (\href{https://doi.org/10.2514/6.2026-1649}{DOI: 10.2514/6.2026-1649}); awarded \textbf{First Place in Innovation \& Technology Advancement} at Virginia Tech's Graduate \& Professional Student Symposium; recipient of the \textbf{Tolson \& Nerney Fellowship} (\$11,750) from the Kevin T. Crofton Dept.\ of Aerospace \& Ocean Engineering.
+\end{itemize}
+
+What excites me most about EWI is the bridge between computation and the physical build. My simulation framework is only as good as the experimental data it is validated against, and EWI's infrastructure --- robotic DED cells, materials characterization, and a culture of translating research directly into industry-ready solutions --- represents exactly the environment where my models can be tested, refined, and made genuinely useful. I am not looking for a placement to observe. I am looking for a research environment where simulation and experiment speak to each other daily, and where the output is manufacturing technology that works.
+
+I would welcome the opportunity to contribute to EWI's mission and to grow as a researcher at the intersection of computational mechanics and advanced manufacturing.
+
+I look forward to hearing from you.
+
+% -------------------------------------------------------
+%  CLOSING
+% -------------------------------------------------------
+\vspace{16pt}
+Kind regards,
+
+\vspace{32pt}
+\textbf{Mahima D. Prajapati}
+
+\end{document}

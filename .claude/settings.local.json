@@ -5,7 +5,21 @@
       "Bash(python3:*)",
       "Bash(python:*)",
       "Bash(curl:*)",
-      "Bash(bun:*)"
+      "Bash(bun:*)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:arc.aiaa.org)",
+      "WebSearch",
+      "WebFetch(domain:www.indeed.com)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:jobs.lincolnelectric.com)",
+      "WebFetch(domain:careers.geaerospace.com)",
+      "WebFetch(domain:www.moog.com)",
+      "WebFetch(domain:jobs.appliedmaterials.com)",
+      "WebFetch(domain:jobs.buildsubmarines.com)",
+      "Bash(powershell:*)",
+      "WebFetch(domain:job-boards.greenhouse.io)",
+      "WebFetch(domain:boards.greenhouse.io)",
+      "WebFetch(domain:ewi.org)"
     ]
   }
 }

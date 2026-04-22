@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Freeform, Additive Engineering Internship/Co-Op
+% Compile with: pdflatex (Overleaf compatible)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}           % Times New Roman
+\usepackage[top=1in, bottom=1in, left=1.1in, right=1.1in]{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    pdftitle={Mahima D. Prajapati - Cover Letter - Freeform},
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% -------------------------------------------------------
+%  HEADER
+% -------------------------------------------------------
+\begin{center}
+    {\LARGE \textbf{Mahima D. Prajapati}}\\[4pt]
+    Blacksburg, Virginia, USA \quad|\quad
+    \href{mailto:mahimap@vt.edu}{mahimap@vt.edu} \quad|\quad
+    \href{https://linkedin.com/in/mahimaprajapati}{linkedin.com/in/mahimaprajapati}
+\end{center}
+
+\vspace{8pt}
+\hrule
+\vspace{16pt}
+
+% -------------------------------------------------------
+%  DATE
+% -------------------------------------------------------
+\today
+
+\vspace{16pt}
+
+% -------------------------------------------------------
+%  SALUTATION
+% -------------------------------------------------------
+Dear Freeform Hiring Team,
+
+% -------------------------------------------------------
+%  BODY
+% -------------------------------------------------------
+Freeform's mission to build AI-native, software-defined metal manufacturing systems maps directly onto the research I conduct every day. My PhD work at Virginia Tech addresses a fundamental challenge in directed energy deposition (DED): predicting and mitigating the structural distortions such as warping and cracking that arise from localized thermal gradients during the printing process. I am writing to apply for the Additive Engineering Internship/Co-Op for Summer or Fall 2026.
+
+To tackle this problem, I am developing a process-aware, multiscale thermo-mechanical simulation framework in Abaqus that couples thermal history predictions with structural response models, material deposition sequencing, heat source modeling, and microstructure evolution at the pre-print, in-process, and post-print stages. The goal is a simulation tool that reflects the spatially and temporally varying material behavior that actually governs part performance in DED components, not idealized uniform properties. My three core contributions to date:
+
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item \textbf{Validated thermo-mechanical FEA framework:} Thermal and structural models calibrated against published benchmarks; currently extending to microstructure evolution to move beyond assumed material uniformity.
+    \item \textbf{ML surrogate for digital twin development:} Developing a physics-informed machine learning model trained on simulation outputs and process parameters to enable real-time process monitoring and predictive control, capabilities that high-fidelity FEA alone cannot provide at production speed.
+    \item \textbf{Peer-reviewed publication:} MS research on aeroelastic analysis of wings with distributed electric propulsors published at AIAA SciTech 2026 (\href{https://doi.org/10.2514/6.2026-1649}{DOI: 10.2514/6.2026-1649}); awarded \textbf{First Place} at Virginia Tech's Graduate \& Professional Student Symposium.
+\end{itemize}
+
+The ML surrogate and digital twin thread of my research aligns precisely with what Freeform is building: a system where software closes the loop between process physics and part quality in real time. I want to contribute that perspective from the simulation side to the challenges Freeform faces on the factory floor.
+
+I thrive in fast-paced environments where projects move from first principles to measurable outcomes quickly, and I would welcome the opportunity to bring that to your team.
+
+I look forward to hearing from you.
+
+% -------------------------------------------------------
+%  CLOSING
+% -------------------------------------------------------
+\vspace{16pt}
+Kind regards,
+
+\vspace{32pt}
+\textbf{Mahima D. Prajapati}
+
+\end{document}

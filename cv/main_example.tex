@@ -1,33 +1,32 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV — Mahima Prajapati
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as the master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: pdflatex main_example.tex
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
 \usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Mahima Prajapati - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Mahima}{Prajapati}
+\address{Blacksburg, Virginia, USA}{}{}
+\email{mahimap@vt.edu}
+\extrainfo{\href{https://linkedin.com/in/mahimaprajapati}{LinkedIn}}
 
 \begin{document}
 
@@ -38,7 +37,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{PhD candidate in Aerospace Engineering at Virginia Tech specializing in metal additive manufacturing process simulation and aeroelastic analysis. Expert in Abaqus FEA with hands-on experience predicting thermo-mechanical deformations during AM processes. Published AIAA SciTech researcher (2026); second paper in preparation for SciTech 2027. Proficient in MATLAB, SolidWorks, CATIA, and ANSYS, with internship experience in industrial automation and aircraft engine maintenance. Seeking Summer/Fall 2026 internship opportunities in aerospace structures, additive manufacturing, or FEA/simulation engineering.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -48,19 +47,19 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Finite Element Analysis (FEA):} Abaqus (expert) — thermo-mechanical coupled simulation, metal additive manufacturing process modeling, deformation and distortion prediction, UMAT/VUMAT subroutines; ANSYS — structural analysis and validation.
 \vspace{1pt}
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{CAD / CAM:} SolidWorks — 3D mechanical design and assembly; CATIA — aerospace-grade parametric design; AutoCAD Electrical — electrical systems documentation.
 \vspace{1pt}
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Computational Analysis:} MATLAB and Simulink — numerical methods, data processing, dynamic system modeling; scripting for simulation workflows.
 \vspace{1pt}
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Aerospace Structures \& Aeroelasticity:} Flutter analysis, fluid-structure interaction, structural dynamics, vibration studies; MS thesis on aeroelastic instability of wings with distributed electric propulsors.
 \vspace{1pt}
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Technical Communication:} AIAA-published researcher; experienced instructor and technical mentor to 50+ engineering students; LaTeX documentation for academic and professional materials.
 
 \end{itemize}
 
@@ -73,37 +72,35 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Dec 2021--Present}{Graduate Research \& Teaching Assistant}{Virginia Tech, Kevin T. Crofton Dept. of Aerospace \& Ocean Engineering}{Blacksburg, VA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
+    \item Developing Abaqus-based thermo-mechanical FEA simulations to predict deformations and distortions during metal additive manufacturing processes; bridging computational modeling with real-world manufacturing outcomes.
     \vspace{1pt}
-    \item [Achievement or responsibility 2]
+    \item Conducted MS research on aeroelastic flutter speed and frequency of aircraft wings with distributed electric propulsors; published and presented findings at AIAA SciTech 2026.
     \vspace{1pt}
-    \item [Achievement or responsibility 3]
+    \item Delivered lectures, tutorials, and laboratory sessions for undergraduate aerospace engineering courses; provided hands-on technical guidance to 50+ students per semester.
     \vspace{1pt}
-    \item [Achievement or responsibility 4]
+    \item Contributed to vibrational studies of the Broad Art Museum Monumental Staircase System with Dr.\ Mehdi Setareh (2021).
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Automation Internship ---
+\item{\cventry{Jun 2019--Jul 2019}{Mechanical Engineering Intern}{Automation \& Control Systems (now PLC Automation Training)}{Pune, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
+    \item Improved efficiency and accuracy of a 6-axis ABB Robot by 20\% and reduced downtime by 15\% using RobotStudio 6.00; performed circuit error diagnosis with CoDeSys and RSlogix 8.10.00.
     \vspace{1pt}
-    \item [Achievement or responsibility 2]
-    \vspace{1pt}
-    \item [Achievement or responsibility 3]
+    \item Redesigned complex electrical projects using AutoCAD Electrical, saving 70\% of working cost.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Air India Internship ---
+\item{\cventry{Dec 2018--Jan 2019}{Engineering Intern}{Air India Limited}{Mumbai, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
+    \item Assisted on-site engineers in routine maintenance of aircraft engines (PW4056, CFM56, GE90/GE~Nx) and APU at Mumbai International Airport; contributed to 20\% efficiency improvement of PW4056 engine.
     \vspace{1pt}
-    \item [Achievement or responsibility 2]
+    \item Gained hands-on experience with engine assembly modules across commercial jet platforms.
 \end{itemize}}}
 
 \end{itemize}
@@ -116,14 +113,19 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{Jan 2025--Present}{Doctor of Philosophy --- Aerospace \& Ocean Engineering}{Virginia Tech}{Blacksburg, VA}{}{\vspace{1pt}
+Research: Metal additive manufacturing process simulation; Abaqus-based FEA modeling of thermo-mechanical deformations and distortions during AM.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{Aug 2021--Dec 2024}{Master of Science --- Aerospace Engineering}{Virginia Tech}{Blacksburg, VA}{}{\vspace{1pt}
+Thesis: ``Aeroelastic Analysis of a Uniform Cantilever Wing with Distributed Electric Propulsors with Rotary Inertia.'' Published at AIAA SciTech 2026 (\href{https://doi.org/10.2514/6.2026-1649}{DOI: 10.2514/6.2026-1649}).
+}}
+
+\vspace{3pt}
+
+\item{\cventry{2016--2020}{Bachelor of Engineering --- Mechanical Engineering}{M.H.\ Saboo Siddik College of Engineering}{Mumbai, India}{}{\vspace{1pt}
 }}
 
 \end{itemize}
@@ -135,27 +137,31 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (professional), Hindi (professional), Gujarati (full professional), Marathi (limited working), Spanish (elementary).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     PUBLICATIONS
 % ============================================================
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Prajapati, M.~D., and Kapania, R.~K. (2026). ``Aeroelastic Analysis of a Uniform Cantilever Wing with Distributed Electric Propulsors with Rotary Inertia.'' \textit{AIAA SciTech Forum 2026}. \href{https://doi.org/10.2514/6.2026-1649}{DOI: 10.2514/6.2026-1649}
+\item Prajapati, M.~D., and Kapania, R.~K. (2027). ``Effect of Thrust on Aeroelastic Analysis of DEP Wings with Rotary Inertia.'' \textit{AIAA SciTech Forum 2027}. (In preparation; journal paper forthcoming.)
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{First Place --- Innovation \& Technology Advancement} -- Virginia Tech Graduate \& Professional Student Symposium (GPSS); competitive poster award for aeroelastic flutter research; \$275 monetary award.}
+\item{\textbf{Nutshell Games 2024} -- Virginia Tech Center for Communicating Science; presented ``Wings in Motion: Mass and Flutter Dynamics'' to a public panel in 90 seconds.}
+\item{\textbf{Future Professoriate Certificate} -- Virginia Tech Graduate School.}
+\item{\textbf{Tolson \& Nerney Fellowship} -- Kevin T. Crofton Dept.\ of Aerospace \& Ocean Engineering, Virginia Tech (2025); \$11,750.}
 \end{itemize}
 
 % ============================================================

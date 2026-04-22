@@ -14,7 +14,7 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** Abaqus FEA (expert), MATLAB, SolidWorks, CATIA, ANSYS, thermo-mechanical simulation, metal additive manufacturing process simulation, aeroelastic analysis, structural dynamics, CAD/CAM
+**Strong match areas:** Abaqus FEA (expert), MATLAB, SolidWorks, CATIA, ANSYS, thermo-mechanical simulation, metal additive manufacturing process simulation (DED, AFSD, laser wire AM), aeroelastic analysis, structural dynamics, CAD/CAM
 **Moderate match areas:** AutoCAD Electrical, PLC programming (CoDeSys/RSlogix), RobotStudio, industrial automation concepts
 **Weak match areas:** Python/programming-heavy data science, software development, CFD solvers (e.g., OpenFOAM, Fluent), propulsion, avionics, electrical systems design
 
@@ -49,9 +49,10 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - **US-wide internship (Summer/Fall 2026):** PASS — relocation is acceptable
 - **France or Germany internship:** PASS (if user requested EU) — verify visa/authorization requirements; flag "confirm with VT International office and employer re: F-1 work abroad"
-- **Requires US citizenship / green card / active security clearance:** FAIL — immediate disqualifier; do not proceed with application
-- **"US national only", "US person", "security clearance required":** FAIL — flag prominently before any work begins
-- **CPT/OPT friendly, visa sponsorship offered:** PASS
+- **"US citizen only", "permanent resident only", "green card required", "no visa sponsorship" (excluding CPT/OPT), "must be eligible for export-controlled work without sponsorship":** FAIL — immediate disqualifier; do not proceed
+- **ITAR/EAR language, "ability to obtain clearance", government-adjacent roles:** SOFT FLAG — surface with warning "verify eligibility with employer and VT International office"; do not auto-disqualify
+- **Defense primes and national labs:** SOFT FLAG — high technical fit but frequent citizenship requirements; only shortlist if posting explicitly welcomes F-1/CPT/OPT or international students
+- **CPT/OPT friendly, visa sponsorship offered, "international students welcome":** PASS
 - **Remote (US-based):** PASS — flag "verify F-1 remote work eligibility with VT International office"
 
 ### 5. Career Alignment & Motivation (0-100)

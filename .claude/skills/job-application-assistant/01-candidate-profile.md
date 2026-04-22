@@ -14,13 +14,13 @@
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| PhD, Aerospace & Ocean Engineering | Jan 2025 – present | Virginia Tech (Kevin T. Crofton Dept.) | Metal additive manufacturing, Abaqus FEA, thermo-mechanical simulation, deformation prediction |
+| PhD, Aerospace & Ocean Engineering | Jan 2025 – present | Virginia Tech (Kevin T. Crofton Dept.) | Metal additive manufacturing — laser wire DED, AFSD; Abaqus FEA, thermo-mechanical simulation, deformation prediction |
 | MS, Aerospace Engineering | Aug 2021 – Dec 2024 | Virginia Tech | Aeroelasticity, fluid-structure interaction, distributed electric propulsion, structural dynamics |
 | BE, Mechanical Engineering | 2016 – 2020 | M.H. Saboo Siddik College of Engineering, Mumbai | Mechanical design, manufacturing, thermodynamics, dynamics |
 
 **MS Thesis:** "Flutter speed and frequency of aircraft wings with distributed electric propulsors, exploring ways to mitigate aeroelastic instabilities."
 
-**PhD Focus:** Abaqus-based simulations to predict deformations and distortions during metal additive manufacturing (AM); bridging computational modeling with real-world manufacturing challenges.
+**PhD Focus:** Abaqus-based simulations to predict deformations and distortions during metal additive manufacturing (AM); specific processes include laser wire directed energy deposition (DED) and additive friction stir deposition (AFSD); bridging computational modeling with real-world manufacturing challenges.
 
 ## Professional Experience
 
@@ -86,18 +86,20 @@ Mumbai, Maharashtra, India
 - CAD/CAM for aerospace components
 
 ## Publications
-1. Prajapati, M. et al. (2026). "Flutter speed and frequency of aircraft wings with distributed electric propulsors." *AIAA SciTech Forum 2026*. (Presented January 2026)
-2. Prajapati, M. et al. (2027). [Extension of SciTech 2026 work — title TBD]. *AIAA SciTech Forum 2027*. (In preparation)
+1. Prajapati, M. D., and Kapania, R. K. (2026). "Aeroelastic Analysis of a Uniform Cantilever Wing with Distributed Electric Propulsors with Rotary Inertia." *AIAA SciTech Forum 2026*. DOI: https://doi.org/10.2514/6.2026-1649
+2. Prajapati, M. D., and Kapania, R. K. (2027). "Effect of Thrust on Aeroelastic Analysis of DEP Wings with Rotary Inertia." *AIAA SciTech Forum 2027*. (In preparation; journal paper with same title forthcoming)
 
-## Certifications
-- MATLAB Onramp — MathWorks
-- MATLAB Fundamentals — MathWorks
-- MATLAB Simulink Onramp — MathWorks
-- CIRTL at Virginia Tech Associate Badge — CIRTL Network (teaching in higher education)
-- Getting Started with Technology: Think Like an Engineer
+## Certifications & Professional Development
+- **Future Professoriate Certificate** — Virginia Tech Graduate School (structured preparation for faculty career: research, teaching, service, academic career navigation)
+- **CIRTL Associate Teaching Badge** — Virginia Tech Associate Teaching Program
+- **GRAD-series courses** — Virginia Tech Graduate School (multiple professional development courses)
+- **MATLAB Onramp, MATLAB Fundamentals, MATLAB Simulink Onramp** — MathWorks
+- **Getting Started with Technology: Think Like an Engineer** — online certification
 
-## Awards
-- **Tolson & Nerney Fellowship** — Virginia Tech
+## Awards & Recognition
+- **First Place — Innovation and Technology Advancement** — Virginia Tech Graduate and Professional Student Symposium (GPSS); poster presentation on aeroelastic flutter work with distributed electric propulsors; $275 monetary award
+- **Nutshell Games 2024 Participant** — Virginia Tech Center for Communicating Science; "Wings in Motion: Mass and Flutter Dynamics" — 90-second research talk with one prop before a panel of seventh graders, community members, and VT faculty/staff
+- **Tolson & Nerney Fellowship** — Kevin T. Crofton Dept. of Aerospace & Ocean Engineering, Virginia Tech (2025); $11,750
 - **Business Card Making Competition** — [event/year TBD]
 
 ## References

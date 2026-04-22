@@ -22,10 +22,12 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Education
 - **PhD in Aerospace & Ocean Engineering** (Jan 2025 - present) - Virginia Tech, Kevin T. Crofton Dept. of Aerospace and Ocean Engineering
   - Focus: Metal additive manufacturing (AM); Abaqus-based simulations to predict deformations and distortions during the AM process
+  - Specific methods: Laser wire directed energy deposition (DED), additive friction stir deposition (AFSD)
 - **MS in Aerospace Engineering** (Aug 2021 - Dec 2024) - Virginia Tech
   - Thesis: "Flutter speed and frequency of aircraft wings with distributed electric propulsors, exploring ways to mitigate aeroelastic instabilities"
   - Topics: Aeroelasticity, fluid-structure interaction, distributed electric propulsion, structural dynamics
 - **BE in Mechanical Engineering** (2016 - 2020) - M.H. Saboo Siddik College of Engineering, Mumbai, India
+  - Topics: CAD, CAM, CAE, strucutal vibration and dynamics, manufacturing
 
 ### Professional Experience
 - **Graduate Research & Teaching Assistant** (Dec 2021 - Present) - **Virginia Tech** (Blacksburg, VA)
@@ -49,19 +51,19 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Software:** Abaqus, MATLAB, SolidWorks, ANSYS, CATIA, AutoCAD Electrical, RobotStudio, CoDeSys, RSlogix, LaTeX
 
 ### Certifications
-- **MATLAB Onramp** - MathWorks
-- **MATLAB Fundamentals** - MathWorks
-- **MATLAB Simulink Onramp** - MathWorks
-- **CIRTL at Virginia Tech Associate Badge** - CIRTL Network (teaching in higher education)
+- **Future Professoriate Certificate** - Virginia Tech Graduate School
+- **CIRTL Associate Teaching Badge** - Virginia Tech Associate Teaching Program
+- **MATLAB Onramp, MATLAB Fundamentals, MATLAB Simulink Onramp** - MathWorks
 - **Getting Started with Technology: Think Like an Engineer** - online certification
 
 ### Publications
-- Prajapati, M. et al. (2026). "Flutter speed and frequency of aircraft wings with distributed electric propulsors." AIAA SciTech Forum 2026. (Presented January 2026)
-- Prajapati, M. et al. (2027). [Extension of SciTech 2026 work — title TBD]. AIAA SciTech Forum 2027. (In preparation)
+- Prajapati, M. D., and Kapania, R. K. (2026). "Aeroelastic Analysis of a Uniform Cantilever Wing with Distributed Electric Propulsors with Rotary Inertia." *AIAA SciTech Forum 2026*. DOI: https://doi.org/10.2514/6.2026-1649
+- Prajapati, M. D., and Kapania, R. K. (2027). "Effect of Thrust on Aeroelastic Analysis of DEP Wings with Rotary Inertia." *AIAA SciTech Forum 2027*. (In preparation; journal paper with same title forthcoming)
 
-### Awards
-- **Tolson & Nerney Fellowship** - Virginia Tech
-- **Business Card Making Competition** - [event/year TBD]
+### Awards & Recognition
+- **First Place — Innovation and Technology Advancement** - Virginia Tech Graduate and Professional Student Symposium (GPSS); poster on aeroelastic flutter work; accompanied by $275 monetary award
+- **Nutshell Games 2024 Participant** - Virginia Tech Center for Communicating Science; delivered "Wings in Motion: Mass and Flutter Dynamics" — a 90-second research talk with one prop before a panel spanning seventh graders, community members, and VT faculty/staff
+- **Tolson & Nerney Fellowship** - Kevin T. Crofton Dept. of Aerospace & Ocean Engineering, Virginia Tech (2025) — $11,750
 
 ### Behavioral Profile
 - **Independent researcher** - thrives in deep, focused, self-directed research environments
@@ -79,14 +81,19 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Target Sectors
 - **Aerospace & Defense:** Boeing, Lockheed Martin, Northrop Grumman, GE Aerospace, Pratt & Whitney, Raytheon, Collins Aerospace, Spirit AeroSystems, Safran, Airbus
-- **Metal Additive Manufacturing:** Sciaky, Trumpf, Relativity Space, Divergent Technologies, Desktop Metal, 3D Systems, Velo3D
+- **Metal Additive Manufacturing:** Sciaky, EOS, Velo3D, DMG MORI, Optomec, GE Additive, Lincoln Electric (wire/DED processes), Trumpf, Relativity Space, Divergent Technologies, Desktop Metal, 3D Systems
 - **National Labs (civilian only):** Oak Ridge National Laboratory (ORNL), NASA (civilian programs), Pacific Northwest National Lab, Argonne
 - **France/Germany (secondary):** Safran, Airbus (Toulouse/Hamburg), Dassault Systèmes, MTU Aero Engines, Liebherr Aerospace
 
 ### Deal-breakers
-- Job postings requiring US citizenship, green card, or security clearance ("US national only", "US citizen required", "active clearance required")
+- **Hard disqualifiers:** "US citizen only", "US national only", "permanent resident only", "green card required", "no visa sponsorship" (when it excludes CPT/OPT), "must be eligible for export-controlled work without sponsorship"
 - Employers who do not hire F-1 visa holders on CPT/OPT
 - Roles outside aerospace, manufacturing, mechanical engineering, or structures/simulation domain
+
+### Soft Flags (show with warning — verify before applying)
+- ITAR/EAR language, "ability to obtain clearance", government-adjacent roles — may still be accessible; flag "verify with employer and VT International office"
+- Defense primes and national labs — technically strong fit but frequently citizenship-restricted; only shortlist if posting **explicitly** welcomes F-1/CPT/OPT or international students
+- Unpaid internships — flag clearly but still surface if relevant
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

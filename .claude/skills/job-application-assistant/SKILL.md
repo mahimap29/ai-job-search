@@ -1,6 +1,7 @@
 # Job Application Assistant
 
 **name:** job-application-assistant
+**description:** Assists with job and internship applications: evaluating postings, tailoring CVs, writing cover letters, and interview prep. Triggers on: job posting, internship, co-op, summer internship, job application, CV, cover letter, resume, interview prep, job fit, career, application, apply, ansøgning, stilling
 **allowed-tools:** Read, Glob, Grep, WebFetch, WebSearch, Edit, Write, AskUserQuestion
 
 ---
@@ -8,6 +9,7 @@
 ## Workflow
 
 **Load profile first:** Read `01-candidate-profile.md` and `02-behavioral-profile.md` before evaluating fit or drafting documents. If placeholders like `[YOUR_NAME]` remain, pause and ask the user to run `/setup` from this repo or paste an updated profile.
+
 When the user provides a job posting (URL or text), follow this workflow:
 
 ### Step 1: Research & Evaluate Fit
